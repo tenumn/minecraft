@@ -1,0 +1,20 @@
+Thumbs.db
+
+# No Logs
+logs
+
+# MineCraft
+resourcepacks
+saves
+
+# HMCL
+assets
+libraries
+versions
+launcher_profiles.json
+options.txt
+usercache.json
+usernamecache.json
+
+# Mods
+rhino.local.properties

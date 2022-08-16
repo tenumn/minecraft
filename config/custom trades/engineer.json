@@ -1,0 +1,22 @@
+{
+    "profession": "engineer",
+    "removeOtherTrades": false,
+    "trades": [
+        {
+            "offer": {
+                "itemKey": "create:cogwheel",
+                "amount": 8,
+                "priceModifier": 0
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1,
+                "priceModifier": 0.25
+            },
+            "tradeExp": 4,
+            "maxUses": 16,
+            "priceMultiplier": 0.1,
+            "tradeLevel": 1
+        }
+    ]
+}

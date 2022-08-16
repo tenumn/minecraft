@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        // MineCraft
+        "resourcepacks": true,
+        "saves": true,
+
+        // HMCL
+        "assets": true,
+        "libraries": true,
+        "versions": true,
+        "launcher_profiles.json": true,
+        "options.txt": true,
+        "usercache.json": true,
+        "usernamecache.json": true,
+
+        // Mods
+        "rhino.local.properties": true
+    }
+}
