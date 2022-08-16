@@ -1,0 +1,42 @@
+{
+	id: "3FC914D7FD07A546"
+	group: "7A4CA2BC14575A6D"
+	order_index: 0
+	filename: "3FC914D7FD07A546"
+	title: "植物魔法"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "19C96C669AD4DDAD"
+			tasks: [{
+				id: "45BF9D0FAB215B81"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "0231032B20A616EB"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["19C96C669AD4DDAD"]
+			id: "65F15F9DEC5ADEB6"
+			tasks: [{
+				id: "02A59685EC638231"
+				type: "item"
+				item: "kubejs:livingrock_casing"
+			}]
+			rewards: [{
+				id: "21F9193A55A8127A"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+	]
+}

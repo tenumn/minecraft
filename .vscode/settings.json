@@ -3,7 +3,6 @@
         // MineCraft
         "resourcepacks": true,
         "saves": true,
-
         // HMCL
         "assets": true,
         "libraries": true,
@@ -12,7 +11,8 @@
         "options.txt": true,
         "usercache.json": true,
         "usernamecache.json": true,
-
+        // Logs
+        "logs/*.gz": true,
         // Mods
         "rhino.local.properties": true
     }
