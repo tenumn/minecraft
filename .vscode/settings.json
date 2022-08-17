@@ -18,6 +18,7 @@
         "config/jei":true,
         // kubejs
         ".vscode/probe.code-snippets": true,
+        "kubejs/jsconfig.json": true,
         "rhino.local.properties": true
     }
 }

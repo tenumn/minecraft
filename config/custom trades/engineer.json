@@ -2,19 +2,33 @@
     "profession": "engineer",
     "removeOtherTrades": true,
     "trades": [
-        {
+    {
             "offer": {
-                "itemKey": "kubejs:copper_coin",
+                "itemKey": "kubejs:silver_coin",
                 "amount": 1
             },
             "request": {
+                "itemKey": "minecraft:andesite",
+                "amount": 64
+            },
+            "tradeExp": 4,
+            "maxUses": 16,
+            "priceMultiplier": 0.1,
+            "tradeLevel": 1
+        },
+        {
+            "offer": {
                 "itemKey": "create:andesite_alloy",
+                "amount": 2
+            },
+            "request": {
+                "itemKey": "kubejs:copper_coin",
                 "amount": 1
             },
             "tradeExp": 4,
             "maxUses": 16,
             "priceMultiplier": 0.1,
-            "tradeLevel": 1   
+            "tradeLevel": 1
         }
     ]
 }

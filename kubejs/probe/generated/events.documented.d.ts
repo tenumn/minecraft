@@ -961,6 +961,14 @@ declare function onEvent(name: "tags.worldgen.structure_processor", handler: (ev
 */
 declare function onEvent(name: "tags.sound_event", handler: (event: Internal.TagEventJS<any>) => void);
 /**
+* Fired when the player tossed an item.
+* 
+* The event fires on: **startup**, **server**.
+* 
+* The event is cancellable.
+*/
+declare function onEvent(name: "item.toss", handler: (event: Internal.ItemTossEventJS) => void);
+/**
 * Fired when you need to add, change tags of things.
 *
 * However, due to the type erasure of Java, Probe can not determine what
@@ -1084,6 +1092,14 @@ declare function onEvent(name: "tags.villager_type", handler: (event: Internal.T
 * The event is **not** cancellable.
 */
 declare function onEvent(name: "tags.forge.world_types", handler: (event: Internal.TagEventJS<any>) => void);
+/**
+* Fired when an item is about to be picked up by the player.
+* 
+* The event fires on: **startup**, **server**.
+* 
+* The event is cancellable.
+*/
+declare function onEvent(name: "item.pickup", handler: (event: Internal.ItemPickupEventJS) => void);
 /**
 * Fired when you need to add, change tags of things.
 *
