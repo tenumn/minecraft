@@ -1,19 +1,23 @@
 {
     "files.exclude": {
-        // MineCraft
-        "resourcepacks": true,
-        "saves": true,
-        // HMCL
         "assets": true,
         "libraries": true,
+        "logs/*.gz": true,
+        "resourcepacks": true,
+        "saves": true,
         "versions": true,
         "launcher_profiles.json": true,
         "options.txt": true,
         "usercache.json": true,
         "usernamecache.json": true,
-        // Logs
-        "logs/*.gz": true,
-        // Mods
+        // forge
+        "config/fml.toml": true,
+        "config/forge-client.toml": true,
+        "config/forge-common.toml": true,
+        // jei
+        "config/jei":true,
+        // kubejs
+        ".vscode/probe.code-snippets": true,
         "rhino.local.properties": true
     }
 }

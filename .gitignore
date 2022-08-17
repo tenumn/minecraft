@@ -1,20 +1,26 @@
+# Sb Windows
 Thumbs.db
 
-# No Logs
-logs
-
-# MineCraft
-resourcepacks
-saves
-
 # HMCL
-assets
-libraries
-versions
+assets/**
+libraries/**
+logs/**
+resourcepacks/**
+saves/**
+versions/**
 launcher_profiles.json
 options.txt
 usercache.json
 usernamecache.json
 
-# Mods
+# forge
+config/fml.toml
+config/forge-client.toml
+config/forge-common.toml
+
+# jei
+config/jei
+
+# kubejs
+.vscode/probe.code-snippets
 rhino.local.properties
