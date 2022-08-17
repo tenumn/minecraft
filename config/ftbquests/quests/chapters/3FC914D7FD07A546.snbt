@@ -6,10 +6,22 @@
 	title: "植物魔法"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "botania:textures/item/lexicon_elven.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 			id: "19C96C669AD4DDAD"
 			tasks: [{
 				id: "45BF9D0FAB215B81"
@@ -17,25 +29,105 @@
 				item: "botania:pure_daisy"
 			}]
 			rewards: [{
-				id: "0231032B20A616EB"
-				type: "item"
-				item: "kubejs:copper_coin"
+				id: "23C95C406529E745"
+				type: "random"
+				table_id: 6508320550483049335L
 			}]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["19C96C669AD4DDAD"]
-			id: "65F15F9DEC5ADEB6"
+			dependencies: ["31599901FB997EED"]
+			id: "7E90927054C66BAF"
 			tasks: [{
-				id: "02A59685EC638231"
+				id: "572BB26318DC3A04"
 				type: "item"
-				item: "kubejs:livingrock_casing"
+				item: "botania:mana_spreader"
 			}]
 			rewards: [{
-				id: "21F9193A55A8127A"
+				id: "0210331BFF6AE642"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["19C96C669AD4DDAD"]
+			id: "31599901FB997EED"
+			tasks: [{
+				id: "21C4DED4B72E9FCB"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "3CAF0638411A0AE0"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["6B95FF0407280F3B"]
+			id: "78E32F0B56CBDDDF"
+			tasks: [{
+				id: "7AE4B27A4CEA99E6"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "42FDF7D3DEF629BC"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["547FAABFEB2EDBFA"]
+			id: "6B95FF0407280F3B"
+			tasks: [{
+				id: "04C082ED9BDD96A1"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+			rewards: [{
+				id: "2BF353669632DACC"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["31599901FB997EED"]
+			id: "7F9A0DA9B80CC424"
+			tasks: [{
+				id: "56DFDEAFF1B3C245"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "32C61C28910381B7"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["7F9A0DA9B80CC424"]
+			id: "547FAABFEB2EDBFA"
+			tasks: [{
+				id: "6D0FCA5D9A2EA747"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "1DE904A091A537DD"
+				type: "random"
+				table_id: 6508320550483049335L
 			}]
 		}
 	]

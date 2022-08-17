@@ -1,0 +1,13 @@
+{
+	id: "5A52330EDFEABB77"
+	order_index: 0
+	title: "随机钱币"
+	icon: "kubejs:gold_coin"
+	tags: ["coin"]
+	loot_size: 1
+	rewards: [
+		{ item: "kubejs:copper_coin", weight: 100 }
+		{ item: "kubejs:silver_coin", weight: 10 }
+		{ item: "kubejs:gold_coin" }
+	]
+}
