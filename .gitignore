@@ -23,4 +23,6 @@ config/jei
 
 # kubejs
 .vscode/probe.code-snippets
+kubejs/assets/kubejs/lang/schema.json
+kubejs/probe
 rhino.local.properties

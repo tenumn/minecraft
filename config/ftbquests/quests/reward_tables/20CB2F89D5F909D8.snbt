@@ -1,0 +1,25 @@
+{
+	id: "20CB2F89D5F909D8"
+	order_index: 1
+	title: "随机花瓣"
+	icon: "botania:white_petal"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:white_petal", count: 16 }
+		{ item: "botania:orange_petal", count: 16 }
+		{ item: "botania:magenta_petal", count: 16 }
+		{ item: "botania:light_blue_petal", count: 16 }
+		{ item: "botania:yellow_petal", count: 16 }
+		{ item: "botania:lime_petal", count: 16 }
+		{ item: "botania:pink_petal", count: 16 }
+		{ item: "botania:gray_petal", count: 16 }
+		{ item: "botania:light_gray_petal", count: 16 }
+		{ item: "botania:cyan_petal", count: 16 }
+		{ item: "botania:purple_petal", count: 16 }
+		{ item: "botania:blue_petal", count: 16 }
+		{ item: "botania:brown_petal", count: 16 }
+		{ item: "botania:green_petal", count: 16 }
+		{ item: "botania:red_petal", count: 16 }
+		{ item: "botania:black_petal", count: 16 }
+	]
+}

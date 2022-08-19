@@ -37,8 +37,14 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59ACF4E7443D3B10"
+				type: "random"
+				table_id: 6508320550483049335L
+			}]
 		}
 		{
+			title: "植魔花药师"
 			x: 2.0d
 			y: 2.0d
 			id: "38925DC849B19A23"
@@ -46,6 +52,11 @@
 				id: "01D58D36C46862A1"
 				type: "item"
 				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "64FC8E181233BF7F"
+				type: "random"
+				table_id: 6508320550483049335L
 			}]
 		}
 	]

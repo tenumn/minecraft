@@ -29,11 +29,23 @@
 				type: "item"
 				item: "botania:pure_daisy"
 			}]
-			rewards: [{
-				id: "23C95C406529E745"
-				type: "random"
-				table_id: 6508320550483049335L
-			}]
+			rewards: [
+				{
+					id: "23C95C406529E745"
+					type: "random"
+					table_id: 6508320550483049335L
+				}
+				{
+					id: "47C84C0A67EC8DFE"
+					type: "random"
+					table_id: 2363034698532850136L
+				}
+				{
+					id: "75A3FFA63B945598"
+					type: "item"
+					item: "botania:flower_bag"
+				}
+			]
 		}
 		{
 			x: 2.0d
