@@ -1,0 +1,52 @@
+{
+	id: "4715D97B87F92A14"
+	group: ""
+	order_index: 0
+	filename: "4715D97B87F92A14"
+	title: "村庄交易"
+	icon: "kubejs:gold_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/gold_coin.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "动力工程师"
+			x: 0.0d
+			y: 2.0d
+			id: "088C42FBE1548ADB"
+			tasks: [{
+				id: "4FEA0A0B74075B43"
+				type: "item"
+				title: "Any #create:toolboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "38925DC849B19A23"
+			tasks: [{
+				id: "01D58D36C46862A1"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+	]
+}

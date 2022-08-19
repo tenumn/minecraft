@@ -2,8 +2,8 @@ onEvent('item.registry', event => {
 	event.create('gold_lens').displayName('黄金透镜 (空)');
 	event.create('manasteel_lens').displayName('魔力透镜 (空)');
 	event.create('elementium_lens').displayName('源质透镜 (空)');
-
 	event.create('livingrock_ingot').displayName('活石锭');
+	event.create('mana_star').displayName('魔力之星').glow(true);
 });
 
 onEvent('block.registry', event => {
